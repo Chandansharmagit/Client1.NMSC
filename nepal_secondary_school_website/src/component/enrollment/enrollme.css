@@ -1,0 +1,25 @@
+
+.updating-soon-img{
+    width: 95vw;
+    margin-left: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+
+   
+}
+#enrolls{
+    margin-left: 2rem;
+    
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+@media (max-width: 700px){
+   .updating-soon-img{
+    width: 85vw;
+    margin-left: 2rem;
+    margin-top: 5rem;
+   
+    margin-bottom: 3rem;
+   }
+}

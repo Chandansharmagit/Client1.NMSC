@@ -1,0 +1,67 @@
+.col-preginations {
+    display: flex;
+    width: 95vw;
+    justify-content: center; /* Center the content horizontally */
+    margin: 0 auto; /* Center the container */
+}
+
+.row-preginations {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.event{
+    margin-top: -7rem;
+}
+
+.btn {
+    background: rgb(90, 173, 108);
+    color: white; /* Ensure text color is visible */
+    padding: 0.5rem 1rem; /* Add padding for better tap/click area */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Add some border radius */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+.all-details {
+    margin-top: 2rem;
+}
+
+.titles {
+    margin-top: 1.5rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.top-nav {
+    /* Add any necessary styles for the top navigation */
+}
+
+.new-images {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40vw;
+    height: auto;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+}
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+    .col-preginations {
+        flex-direction: column; /* Stack items vertically on smaller devices */
+    }
+
+    .row-preginations {
+        margin: 0; /* Remove margin for better spacing */
+    }
+    .all-details{
+        margin-left: 0rem;
+    }
+
+    .new-images {
+        width: 95vw; /* Adjust image width for smaller screens */
+        margin-left: auto; /* Center image horizontally */
+        margin-right: auto; /* Center image horizontally */
+    }
+}

@@ -1,0 +1,86 @@
+.row-preginations-videos{
+    display: flex;
+   background: var(--body_background);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+    box-shadow: 0 4px 10px 0 rgba(222, 219, 219, 0.2), 0 6px 20px 0 rgba(166, 164, 164, 0.19);
+}
+.detailing-of-videos{
+    /* width: 57vw; */
+}
+#pause{
+    margin-left: 8rem;
+    color: rgb(90,173,108);
+}
+
+#play{
+    margin-left: 8rem;
+    color: rgb(90,173,108);
+}
+
+
+.bdss{
+    background: #e1dede;
+}
+
+.experience{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.ordinary{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.text-preginatons{
+    margin-top: 3rem;
+    margin-left: 1rem;
+
+}
+.videoss{
+    margin-left: 8rem;
+    height: 55vh;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 468px) {
+   .row-preginations-videos{
+    flex-direction: column;
+    width: 90vw;
+    border-radius: 12px;
+    margin-left: 1rem;
+   }
+   .videoss{
+    margin-left: 1rem;
+    width: 80vw;
+    height: 40vh;
+    
+   }
+   .experience{
+    font-size: 14vw;
+   }
+
+}
+@media screen and (max-width: 969px) {
+    .row-preginations-videos{
+     flex-direction: column;
+     width: 90vw;
+     height: auto;
+     border-radius: 12px;
+     margin-left: 1rem;
+     margin-top: 22rem;
+    }
+    .videoss{
+     margin-left: 1rem;
+     width: 80vw;
+     height: 40vh;
+     
+    }
+    .experience{
+     font-size: 14vw;
+    }
+ 
+ }

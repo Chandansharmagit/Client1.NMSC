@@ -1,0 +1,144 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard-event_change {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 12rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form textarea,
+form input[type="file"],
+form button {
+    flex: 1 1 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form textarea {
+    width: calc(50% - px);
+    flex: 1 1 45%;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.event-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h3 {
+    margin-top: 0;
+}
+
+.event-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.event-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.event-item button:hover {
+    background-color: #c82333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form input[type="text"],
+    form textarea {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .event-item {
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+
+    .admin-dashboard {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-event_change {
+        padding: 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form button {
+        padding: 10px;
+    }
+
+    .event-item {
+        padding: 10px;
+    }
+
+    .admin-dashboard {
+        font-size: 1rem;
+    }
+}

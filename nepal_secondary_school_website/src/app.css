@@ -1,0 +1,10 @@
+.App-Header{
+    background-color:var(--body_background);
+    color: var(--body_color);
+}
+.App-Link{
+    color: var(--Link_color);
+}
+h3{
+    color: var(--Link_color);
+}

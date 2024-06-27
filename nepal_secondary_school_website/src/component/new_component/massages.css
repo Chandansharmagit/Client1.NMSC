@@ -1,0 +1,141 @@
+/* Base Styles */
+.massage-box-preginaition-col {
+    display: flex;
+    height: 80vh;
+    margin-top: 3rem;
+}
+
+.side-bar {
+    margin-top: 1rem;
+}
+
+.qotes {
+    color: var(--Link_color);
+    animation: blinking 3s linear infinite;
+}
+
+@keyframes blinking {
+    50% {
+        opacity: 0;
+    }
+}
+
+.isa-award {
+    font-weight: bold;
+}
+
+.images-p {
+    margin-top: 2.1rem;
+    margin-left: 2rem;
+}
+
+.headers {
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-style: italic;
+}
+
+.headerss {
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.detailing {
+    background: var(--body_background);
+    margin: 0rem 1rem 0rem 3rem;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 4px 10px 0 rgba(222, 219, 219, 0.2), 0 6px 20px 0 rgba(166, 164, 164, 0.19);
+}
+
+.massages {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-style: italic;
+}
+
+.princial-image {
+    width: 29.9vw;
+    margin: 1rem 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px 0 rgba(222, 219, 219, 0.2), 0 6px 20px 0 rgba(166, 164, 164, 0.19);
+    transition: 0.4s ease-in-out;
+}
+
+.read-more {
+    display: none;
+}
+
+.read-more-preginations {
+    width: 10vw;
+    background: transparent;
+    color: blue;
+    transition: 0.4s ease-in-out;
+    font-style: italic;
+}
+
+.read-more-preginations:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+/* Phones */
+@media screen and (max-width: 767px) {
+    .massage-box-preginaition-col {
+        flex-direction: column;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .headers,
+    .headerss {
+        font-size: 24px;
+        margin: 1rem 0 0 1rem;
+    }
+
+    .detailing,
+    .massages {
+        margin-left: 1rem;
+    }
+
+    .side-bar {
+        margin-left: -1rem;
+    }
+
+    .isa-award {
+        font-size: 22px;
+    }
+
+    .princial-image {
+        width: 91vw;
+        height: auto;
+        margin: 1rem -1rem 1rem -1rem;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .massage-box-preginaition-col {
+        height: 90vh;
+        margin-top: 2rem;
+    }
+
+    .princial-image {
+        width: 40vw;
+    }
+}
+
+/* Laptops and Big Screens */
+@media screen and (min-width: 1025px) {
+    .massage-box-preginaition-col {
+        height: auto;
+    }
+}
+
+/* Ensure the image covers the background properly */
+.image-png {
+    background-repeat: no-repeat;
+    background-size: cover;
+}

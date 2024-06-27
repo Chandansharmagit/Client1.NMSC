@@ -1,0 +1,95 @@
+.all-preginations-with{
+    background: var(--body_background);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px rgb(237, 234, 234);
+    margin-top: 10rem;
+}
+.introductions{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+.intro-img{
+    width: 85vw;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.all-details-preginations{
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+#logo-copy{
+    color: blue;
+}
+.visions{
+    margin-left: 4rem;
+    margin-top: -3rem;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+.missions{
+    color: blue;
+    margin-left: 4rem;
+    margin-top: -3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.intro-preginations{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+@media screen and (max-width: 400px) {
+
+.intro-img{
+    width: 83vw;
+    margin-left: 1rem;
+}
+.all-preginations-with{
+   
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 10rem;
+}
+.introductions{
+    margin-left: 1rem;
+}
+.intro-preginations{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.all-details-preginations{
+    margin-left: 1rem;
+}
+}
+
+@media screen and (min-width: 400px) {
+
+    .intro-img{
+        width: 83vw;
+        margin-left: 1rem;
+    }
+    .all-preginations-with{
+       
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 10rem;
+    }
+    .introductions{
+        margin-left: 1rem;
+    }
+    .intro-preginations{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .all-details-preginations{
+        margin-left: 1rem;
+    }
+    }

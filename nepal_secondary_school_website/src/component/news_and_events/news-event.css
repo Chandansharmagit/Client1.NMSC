@@ -1,0 +1,46 @@
+.image-bx {
+    width: 90vw;
+    height: auto;
+    margin-left: 4rem;
+    margin-top: 13rem;
+    border-radius: 12px;
+}
+
+.text {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+.alltext {}
+
+.col {
+    display: flex;
+}
+
+.img {
+    margin-top: 4rem;
+    width: 41.5vw;
+    height: auto;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .image-bx{
+    margin-left: 1.5rem;
+  }
+  .alltext{
+    margin-left: -2.5rem;
+    margin-right: -2rem;
+  }
+ .img{
+    width: 73vw;
+    margin-left: 1rem;
+ }
+    .col{
+        flex-direction: column;
+    }
+   
+}

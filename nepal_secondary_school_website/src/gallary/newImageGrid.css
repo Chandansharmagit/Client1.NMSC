@@ -1,0 +1,90 @@
+.hq {
+  color: var(--Link_color);
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  font-weight: bold;
+  margin-left: -24rem;
+  margin-top: 5rem;
+}
+
+.line .hq::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  bottom: 0;
+  background-color: #288423;
+  width: 100%;
+  height: 3px;
+  /* transform: scale(0);
+  transition: transform 250ms ease-in; */
+}
+
+.line .hq:hover::after {
+  transform: scale(1);
+}
+.mystyle{
+  margin-top: -7rem;
+  
+}
+
+/* Media query for adjusting the text styles on smaller screens */
+@media screen and (max-width: 1280px) {
+  .hq {
+    margin-left: -16rem;
+    font-size: 25px;
+  }
+}
+
+/* New Image Grid Styles */
+.image-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns by default */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  gap: 20px;
+}
+
+.image-grid {
+  /* Styles for individual image grid items */
+}
+
+.image-grid img {
+  max-width: 100%;
+  /* Ensure images don't exceed their container */
+  height: auto;
+  border-radius: 12px;
+  transition: 0.4s ease-in-out;
+  /* Maintain aspect ratio */
+}
+.image-grid img:hover{
+  transform: scale(1.1);
+}
+
+
+/* Media query for adjusting the grid layout on smaller screens */
+@media screen and (max-width: 768px) {
+  .image-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* Adjust column size for smaller screens */
+    gap: 15px;
+    /* Reduce spacing between images */
+  }
+  .hq{
+    margin-left: 0rem;
+  }
+}
+
+/* Media query for adjusting the grid layout on even smaller screens */
+@media screen and (max-width: 717px) {
+  .image-grid-container {
+    grid-template-columns: 1fr;
+    /* Single column for 717px or smaller screens */
+    gap: 10px;
+    /* Further reduce spacing between images */
+  }
+}

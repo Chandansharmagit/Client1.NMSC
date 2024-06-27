@@ -1,0 +1,432 @@
+.benefits {
+    background-color:var(--body_background);
+    color: var(--Link_color);
+}
+
+
+.explorinh {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.exploring-text {
+    text-align: center;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    margin-top: 2rem;
+
+}
+
+
+#level {
+    background:rgb(90, 173, 108);
+    width: 25.5vw;
+    margin-bottom: 0px;
+    margin-left: 7.6rem;
+    transition: 0.4s ease-in-out;
+    box-shadow: 3px 10px 10px 7px rgb(203, 200, 200);
+    height: 6vh;
+    border-radius: 12px;
+
+}
+
+#level:hover {
+    transform: scale(1.0);
+}
+
+.containerrs {
+    /* background: rebeccapurple; */
+    
+
+ 
+
+    width: 14vw;
+    height: 100vh;
+    display: grid;
+    /* grid-template-rows : 133px 133px 133px 133px; */
+    grid-template-columns: 10px 133px 133px 133px;
+    row-gap: 12px;
+    column-gap: 8rem;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 13rem;
+
+}
+
+.item {
+
+    background: var(--body_background);
+  border-radius: 12px;
+    margin-left: -5rem;
+    width: 25vw;
+    transition: 0.4s ease-in-out;
+    border: none;
+    /* width: 122px; */
+    /* height: 122px; */
+    box-shadow: 7px 6px 8px 2px rgb(245, 243, 243);
+}
+
+.item:hover {
+    box-shadow: 0px 0px 0px 0px rgb(143, 141, 141);
+}
+
+.item1 {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.images-pregination-grid {
+    width: 20vw;
+    height: auto;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+    border-radius: 12px;
+    transition: 0.4s ease-in-out;
+}
+
+.images-pregination-grid:hover {
+    transform: scale(1.1);
+
+}
+
+.arrow {
+    transform: rotate(-0.50turn);
+    width: 8vw;
+    margin-left: -1rem;
+    rotate: 26deg;
+}
+
+.new-arm {
+    margin-left: 83.3rem;
+
+}
+
+.new-arr {
+    width: 8vw;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    rotate: 26deg;
+    transform: rotate(3turn);
+}
+
+.color {
+
+    transition: 0.4s ease-in-out;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.back {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.backgrounda {
+    height: 720px;
+
+    background: url(D:\nepal_secondary\nepal_secondary_school_website\src\component\swiper\assembly.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #1c120c;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.backgroundb {
+    height: 720px;
+    background: url(D:\nepal_secondary\nepal_secondary_school_website\src\component\images\IMG_9261.JPG) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #1c120c;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.looking {
+    margin-top: 110px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.explain {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    margin-right: 9rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.benefits-pregiantions {
+
+    background: var(--body_background);
+    margin-top: 3rem;
+    /* background-image: url('../../main_logo//Ra.jpg'); */
+    background-size: cover;
+
+}
+
+.transparent {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .explorinh {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+
+    }
+
+    .exploring-text {
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+
+
+
+    }
+
+    #level {
+        width: 94.6vw;
+        height: 6vh;
+        border-radius: 12px;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        box-shadow: 0 4px 10px 0 rgba(222, 219, 219, 0.2), 0 6px 20px 0 rgba(166, 164, 164, 0.19);
+        transition: 0.4s ease-in-out;
+
+    }
+
+
+
+    .containerrs {
+        height: 366vh;
+        margin-right: 2rem;
+
+
+    }
+
+    .item {
+        width: 94vw;
+        grid-row: span 3;
+        grid-column: span 3;
+        margin-left: -12.3rem;
+
+
+    }
+
+    .images-pregination-grid {
+        width: 88vw;
+        height: auto;
+        margin-left: 1rem;
+
+    }
+
+    .color {
+
+        width: 89vw;
+        color: rgb(0, 0, 0);
+        margin-left: 0.8rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .new-arr {
+        display: none;
+    }
+
+    .new-arm {
+        display: none;
+    }
+
+    .means {
+        display: none;
+    }
+
+    .backgrounda {
+        width: 100vw;
+        height: auto;
+    }
+
+    .explain {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .benefits {
+      
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color:var(--body_background);
+        color: var(--Link_color);
+
+        border-radius: 8px;
+    }
+
+    .benefits-pregiantions {
+
+        background: #ffffff;
+
+        margin-top: 2rem;
+        width: 100vw;
+
+    }
+
+}
+
+/* //setting the width for the big display in the react js */
+
+@media screen and (min-width: 1025px) {
+    .benefits-pregiantions {
+        height: 208vh;
+    }
+}
+
+
+@media screen and (max-width: 969px) {
+
+    .explorinh {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+
+    }
+
+    .exploring-text {
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+
+
+
+    }
+
+    #level {
+        width: 94.6vw;
+        height: 6vh;
+        border-radius: 12px;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        transition: 0.4s ease-in-out;
+
+    }
+
+
+
+    .containerrs {
+        height: auto;
+        margin-right: 2rem;
+
+
+    }
+
+    .item {
+        width: 94vw;
+        grid-row: span 3;
+        grid-column: span 3;
+        margin-left: -12.3rem;
+
+
+    }
+
+    .images-pregination-grid {
+        width: 88vw;
+        height: auto;
+        margin-left: 1rem;
+
+    }
+
+    .color {
+
+        width: 89vw;
+        color: rgb(0, 0, 0);
+        margin-left: 0.8rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .new-arr {
+        display: none;
+    }
+
+    .new-arm {
+        display: none;
+    }
+
+    .means {
+        display: none;
+    }
+
+    .backgrounda {
+        width: 100vw;
+        height: auto;
+    }
+
+    .explain {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .benefits {
+      
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color:var(--body_background);
+        color: var(--Link_color);
+
+        border-radius: 8px;
+    }
+
+    .benefits-pregiantions {
+
+        background: #ffffff;
+
+        margin-top: 2rem;
+        width: 100vw;
+
+    }
+    div.gallery img {
+        width: 100%;
+        height:auto;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+}

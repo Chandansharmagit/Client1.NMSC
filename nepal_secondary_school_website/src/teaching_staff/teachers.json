@@ -1,0 +1,20 @@
+[
+    {
+        "name_sharukhan": "-Shiva p.Devkota",
+        "phone": "555-1234",
+        "address": "123 Main St, Cityville",
+        "image_sharukhan": "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2023/05/2-photoutils.com_.jpg?ssl=1&quality=80&w=800"
+    },
+    {
+        "name": "Jane Smith",
+        "phone": "555-5678",
+        "address": "456 Oak St, Townsville",
+        "image": "https://media.licdn.com/dms/image/D5603AQGTV-k3f6pQwQ/profile-displayphoto-shrink_800_800/0/1696966674511?e=2147483647&v=beta&t=8JhOjUpOSO3Nd3AGWUDssoPcHfeLp964koe9MtaO8wQ"
+    },
+    {
+        "name": "Alice Johnson",
+        "phone": "555-9090",
+        "address": "789 Pine St, Villageton",
+        "image": "alice_johnson.jpg"
+    }
+]

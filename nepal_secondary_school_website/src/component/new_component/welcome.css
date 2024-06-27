@@ -1,0 +1,121 @@
+.col-pregaintion {
+    display: flex;
+    background: var(--body_background);
+    margin-top: 2rem;
+    box-shadow: 0 4px 10px 0 rgba(222, 219, 219, 0.2), 0 6px 20px 0 rgba(166, 164, 164, 0.19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    
+}
+
+.new_imagess {
+    width: 60vh;
+    height: auto;
+    margin-left: -7rem;
+    border-radius: 12px;
+   
+}
+
+.images-img {
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+
+.welcome-to {
+    font-weight: bold;
+    color:var(--Link_color);
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 4rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .2rem solid rgb(51, 0, 255); /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.8s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 8, 255); }
+}
+
+.circle {
+    width: 5vw;
+    
+}
+
+.texts {
+    margin-left: 0rem;
+    font-size: 17px;
+    margin-top: 7rem;
+    overflow: hidden;
+    border-right: .2rem solid rgb(51, 0, 255);
+    animation: 
+    typing 3.8s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* Media Queries */
+
+/* Phones */
+@media screen and (max-width: 480px) {
+    .col-pregaintion {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 92vw;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 8px;
+    }
+   
+    .welcome-to {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        font-size: 12px;
+        margin-left: 2rem;
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 1px; /* Adjust as needed */
+        animation: 
+          typing 3.8s steps(40, end),
+          blink-caret .75s step-end infinite;
+    }
+   
+    .images-img {
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+    
+    .new_imagess {
+        width: 90vw;
+        margin-left: -2rem;
+        margin-top: -3rem;
+        height: auto;
+    }
+    
+    .texts {
+       margin-left: 2rem;
+       margin-top: 2rem;
+    }
+    
+    .circle {
+        width: 30vw;
+        display: none;
+    }
+    
+    .all-details {
+        margin-left: -3rem;
+    }
+}

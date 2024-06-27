@@ -1,0 +1,35 @@
+.main_managemtn_commitee_with_preginations{
+    margin-top: 8rem;
+}
+
+.grid-container {
+    display: grid;
+  margin-left: 2rem;
+  border-radius: 12px;
+  height: auto;
+
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+}
+
+.image{
+    width: 20vw;
+    height: auto;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .image{
+        width: 75vw;
+        height: auto;
+    }
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
